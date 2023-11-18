@@ -22,10 +22,21 @@ const nombreMayusculas = (name) => {
 
 nombre("Jesus", nombreMayusculas);
 
-const array = [1, 2, 3];
+// const array = [1, 2, 3];
 
-const imprimeArreglo = (numero) => {
-  console.log(numero);
-};
+// const imprimeArreglo = (numero) => {
+//   console.log(numero);
+// };
 
-array.forEach(imprimeArreglo);
+// array.forEach(imprimeArreglo);
+
+// const funcion1 = (funcion2) => {
+//   console.log("funcion1");
+//   funcion2();
+// };
+
+// const funcion2 = () => {
+//   console.log("funcion2");
+// };
+
+// funcion1(funcion2);
