@@ -14,10 +14,10 @@ const promesa = new Promise((resolve, reject) => {
 // FRONTEND con async - await
 const resolver = async () => {
   try {
-    // const respuesta = await fetch("https://fakestoreapi.com/products");
-    // const datos = await respuesta.json();
-    const respuesta = await promesa;
-    console.log(respuesta);
+    const respuesta = await fetch("https://fakestoreapi.com/products");
+    const datos = await respuesta.json();
+    // const respuesta = await promesa;
+    console.log(datos);
   } catch (error) {
     console.log(error);
   }
